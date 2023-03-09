@@ -29,7 +29,11 @@ const App = () => {
 
   return (
     <main>
-      { input && <QRCode value={input} /> }
+      <h1>QR Code Generator</h1>
+
+      <p>Digite seu link e faça o download do QR Code!</p>
+
+      { input && <QRCode value={input} size={150} /> }
   
       <input type='text' onChange={(e) => handleInputValue(e)} />
 

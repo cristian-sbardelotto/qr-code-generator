@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: sans-serif;
 }
 
 main {
@@ -14,7 +16,15 @@ main {
   gap: 2rem;
 }
 
-input {
+main h1 {
+  font-size: 3rem;
+}
+
+main p {
+  font-size: 1.4rem;
+}
+
+main input {
   height: 60px;
   width: 30vw;
 
@@ -23,14 +33,10 @@ input {
   outline: none;
   font-size: 1.5rem;
   padding: 0 0 0 2rem;
-
-  font-family: sans-serif;
 }
 
-a {
+main a {
   text-decoration: none;
-
-  font-family: sans-serif;
 
   font-weight: 700;
   font-size: 1.25rem;
