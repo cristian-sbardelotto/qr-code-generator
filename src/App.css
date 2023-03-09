@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+input {
+  height: 60px;
+  width: 30vw;
+
+  border: 2px solid #bebebe;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0 0 0 2rem;
+
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+
+  font-family: sans-serif;
+
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #747171;
+}
